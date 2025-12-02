@@ -1,0 +1,18 @@
+# Raw data backup - large files
+rawdata/
+# Raw input data - large files do not commit
+1-Raw/*.fastq.gz
+1-Raw/*.fastq
+
+# Temporary pipeline output - large files do not commit
+2-Trimmed/
+3-Filtered/
+4-Subtracted/
+5-Aligned/
+6-AssignRaw/
+7-MetagTbl/
+
+# Temporary files
+tmp.t
+*.pyc
+__pycache__/
